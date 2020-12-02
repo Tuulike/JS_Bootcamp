@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery-img {
+  display: none;
+  max-height: 600px;
+}
+
+.active {
+  display: block;
+}
+
+.image-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #ec837f;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  padding: 8px 24px;
+  border-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.prev {
+  margin-right: 16px;
+}
+
+.btn:disabled {
+  background-color: #777;
+  cursor: not-allowed;
+}

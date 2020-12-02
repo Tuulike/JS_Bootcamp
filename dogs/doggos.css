@@ -1,0 +1,87 @@
+header {
+  background-color: #eaddde;
+  color: #1e1d1c;
+  margin-bottom: 24px;
+  font-family:'Montserrat', sans-serif;
+  padding: 24px;
+  padding-top: 50px;
+  padding-left: 72px;
+  padding-right: 72px;
+  justify-content: space-between;
+  display: flex;
+  height: 120px;
+
+}
+select {
+  height: 40px;
+  padding: 8px;
+  font-size: 18px;
+  margin-top: 56px;
+  font-family:'Montserrat', sans-serif;
+  background-color: #1e1d1c;
+  color: white;
+
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-family:'Montserrat', sans-serif;
+  color: #1e1d1c;
+  font-size: 32px;
+}
+
+body {
+  background-color: #f6f6f6;
+  margin:0;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  max-width: 600px;
+  max-height: 600px;
+  margin-left: auto;
+ margin-right: auto;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  background-color: #eaddde;
+  color: #1e1d1c;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.spinner {
+  font-size: 50px;
+  text-align: center;
+  animation: 2s spin linear infinite;
+  display: none;
+  margin-top: 100px;
+}
+
+.dog-img {
+  display: none;
+}
+
+.show {
+  display: block;
+}
